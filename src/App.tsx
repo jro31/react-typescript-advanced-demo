@@ -6,7 +6,6 @@ import Todo from './models/todo';
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
-  // This sets that the 'todos' variable will hold an array of 'Todo' objects (set in './models/todo')
 
   const addTodoHandler = (todoText: string) => {
     const newTodo = new Todo(todoText);
