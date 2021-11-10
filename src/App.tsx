@@ -12,3 +12,7 @@ function App() {
 }
 
 export default App;
+
+// Further reading on Typescript:
+// Official docs - https://www.typescriptlang.org/
+// Create React App Typescript - https://create-react-app.dev/docs/adding-typescript/
